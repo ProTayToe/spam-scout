@@ -1,13 +1,13 @@
-package com.example;
+package com.spamscout;
 
 import net.runelite.client.RuneLite;
 import net.runelite.client.externalplugins.ExternalPluginManager;
 
-public class ExamplePluginTest
+public class SpamScoutPluginTest
 {
 	public static void main(String[] args) throws Exception
 	{
-		ExternalPluginManager.loadBuiltin(ExamplePlugin.class);
+		ExternalPluginManager.loadBuiltin(SpamScoutPlugin.class);
 		RuneLite.main(args);
 	}
 }
